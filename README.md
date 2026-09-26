@@ -20,3 +20,7 @@ An export preset for [ArmorPaint](https://armorpaint.org/) that produces texture
    - `<name>_nohq.png`
    - `<name>_as.png`
    - `<name>_smdi.png`
+   - `<name>_em.png`
+
+All channels are always exported, even if they are empty. Check your outputs and replace empty channels with a
+generated stage (e.g. `texture="#(argb,8,8,3)color(1,1,1,1,AS)") in the rvmat for efficiency and space savings.
