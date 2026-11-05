@@ -4,6 +4,6 @@
 		{ "name": "nohq", "channels": ["nor_r", "nor_g", "nor_b", "1.0"], "color_space": "linear" },
 		{ "name": "as", "channels": ["1.0", "occ", "1.0", "1.0"], "color_space": "linear" },
 		{ "name": "smdi", "channels": ["1.0", "metal", "smooth", "1.0"], "color_space": "linear" },
-		{ "name": "em", "channels": ["emis", "emis", "emis", "1.0"], "color_space": "linear" }
+		{ "name": "e_co", "channels": ["emis", "emis", "emis", "1.0"], "color_space": "linear" }
 	]
 }
